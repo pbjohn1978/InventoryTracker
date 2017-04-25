@@ -45,7 +45,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
-    <Folder Include="RootOfSite\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="RootOfSite\index.html" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
