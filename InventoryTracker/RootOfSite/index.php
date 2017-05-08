@@ -6,5 +6,6 @@
 </head>
 <body>
     root of site...
+    <a href="inventorypage.php">inventory page </a>
 </body>
 </html>
