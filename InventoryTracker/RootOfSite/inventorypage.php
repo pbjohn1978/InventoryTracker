@@ -12,11 +12,6 @@
 </head>
 <body>
 	<?php
-		error_reporting(E_ALL);
-		ini_set('display_startup_errors',1);
-		ini_set('display_errors',1);
-		error_reporting(-1);
-
 		$servername = "96.81.150.5:3306";
 		$username = "beekerINVTRACKER";
 		$password = "NpgqdulHOhLARGmx";
@@ -41,7 +36,6 @@
 			}
 			$outputString = $outputString."</table>";
 		}
-		
 		
 		echo $outputString."<br>";
 		

@@ -4,14 +4,12 @@
     <title>Inventory Tracker</title>
 	<meta charset="utf-8" />
 </head>
-
+<body>
+<a href="inventorypage.php">inventory page - WE WILL DELETE THIS LINK IN LATER VERSIONS... :)</a>
 <?php
 	include 'script/functions.php';
 	display_head();
-?>
 
-<body>
-<?php
 	include 'header.php';?>
 
 	<div id="carousel-container">
@@ -35,5 +33,6 @@
 			carousel.roundabout({autoplay:true, autoplayDuration:6000});
 			carousel.show();
 	});
+?>
 </body>
 </html>
