@@ -12,7 +12,7 @@
 </head>
 <body>
 	<?php
-		$servername = "96.81.150.5:3306";
+		$servername = "";
 		$username = "";
 		$password = "";
 		$dbname = "InventoryTrackerCptc";
