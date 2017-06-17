@@ -52,6 +52,9 @@
   <ItemGroup>
     <None Include="RootOfSite\inventorypage.php" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="DbSqlScripts\InventoryTrackerCptc.sql" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

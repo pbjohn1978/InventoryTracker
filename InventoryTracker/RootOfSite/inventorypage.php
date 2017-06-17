@@ -13,8 +13,8 @@
 <body>
 	<?php
 		$servername = "96.81.150.5:3306";
-		$username = "beekerINVTRACKER";
-		$password = "NpgqdulHOhLARGmx";
+		$username = "";
+		$password = "";
 		$dbname = "InventoryTrackerCptc";
 		$sql = "SELECT Item.ItemID ,Item.ItemName ,Store.StoreName ,Item.ItemUnitPrice ,Item.ItemQuantityPerBox ,Item.ItemTotalCount ,ItemLocation.ItemLocationName FROM Item INNER JOIN Store on Item.StoreID = Store.StoreID INNER JOIN ItemLocation on Item.ItemLocationID = ItemLocation.ItemLocationID";
 		$outputString = "0 results";
