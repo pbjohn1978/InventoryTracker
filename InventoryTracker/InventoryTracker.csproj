@@ -50,6 +50,8 @@
     <None Include="RootOfSite\index.php" />
     <Content Include="RootOfSite\newLocationGet.php" />
     <Content Include="RootOfSite\newLocationPost.php" />
+    <Content Include="RootOfSite\newStoreGet.php" />
+    <Content Include="RootOfSite\newStorePost.php" />
   </ItemGroup>
   <ItemGroup>
     <None Include="RootOfSite\inventorypage.php" />
