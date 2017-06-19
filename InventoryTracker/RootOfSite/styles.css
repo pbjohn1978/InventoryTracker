@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+#sideBar{
+	width:250px;
+	height:700px;
+	border:groove;
+	float:left;
+}
+
+#sideBar a button{
+	width:100px;
+	margin-left:25px;
+}
+
+#sideBarLogin{
+	width:250px;
+	height:700px;
+	border:groove;
+	float:left;
+}
+
+#sideBarLogin div{
+	margin-left:25px;
+	margin-right:25px;
+}
+
+#mainContent{
+	width:calc(100% - 330px);
+	padding:0px 25px 0px 25px;
+	float:left;
+	border:groove;
+}
+
+#mainContent div{
+	
+}

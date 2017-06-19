@@ -47,17 +47,17 @@
     <Folder Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="RootOfSite\index.php" />
+    <Content Include="DbSqlScripts\InventoryTrackerCptc.sql" />
+    <Content Include="RootOfSite\styles.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="RootOfSite\index.php" />
+    <Content Include="RootOfSite\inventorypage.php" />
+    <Content Include="RootOfSite\login.php" />
     <Content Include="RootOfSite\newLocationGet.php" />
     <Content Include="RootOfSite\newLocationPost.php" />
     <Content Include="RootOfSite\newStoreGet.php" />
     <Content Include="RootOfSite\newStorePost.php" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="RootOfSite\inventorypage.php" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="DbSqlScripts\InventoryTrackerCptc.sql" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
